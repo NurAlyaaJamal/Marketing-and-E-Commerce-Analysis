@@ -8,17 +8,15 @@
 ![Pandas](https://img.shields.io/badge/pandas-150458?logo=pandas&logoColor=white)
 ![Status](https://img.shields.io/badge/Status-Complete-brightgreen)
 
-**Author:** Nur Alyaa Jamal
-
 ---
 
-## 📌 Project Overview
+## Project Overview
 
 This project analyses a multi-table marketing and e-commerce dataset to understand how customers browse, click, add to cart and purchase, how marketing campaigns perform, and what drives revenue. It combines **SQL (SQLite)** for joins, aggregations, window functions, CTEs and RFM scoring with **Python** for statistical testing, modelling and visualisation.
 
 > ⚠️ **Note:** The dataset is entirely **synthetic**. The findings demonstrate analytical techniques and should not be treated as evidence of real e-commerce business performance.
 
-## 🎯 Objectives
+## Objectives
 
 - Validate data quality and relationships across five related tables
 - Analyse the conversion funnel (view → click → cart → purchase)
@@ -29,7 +27,7 @@ This project analyses a multi-table marketing and e-commerce dataset to understa
 - Examine trends, seasonality and product performance
 - Translate results into business recommendations and state analytical limitations
 
-## 📂 Dataset
+## Dataset
 
 Source: [Marketing and E-Commerce Analytics Dataset (Kaggle)](https://www.kaggle.com/datasets/geethasagarbonthu/marketing-and-e-commerce-analytics-dataset)
 
@@ -41,7 +39,7 @@ Source: [Marketing and E-Commerce Analytics Dataset (Kaggle)](https://www.kaggle
 | `events` | 2,000,000 | Interaction events: view, click, cart, purchase, device, traffic source, experiment group |
 | `transactions` | 103,127 | Purchases: quantity, discount, gross revenue, refund flag |
 
-## 🧭 Analysis Workflow
+## Analysis Workflow
 
 1. **Load & validate**: structure, data types, missing values, duplicates, key integrity
 2. **Clean & engineer features**: dates, standardised labels, campaign exposure, seasonality flags, age groups, price bands
@@ -57,7 +55,7 @@ Source: [Marketing and E-Commerce Analytics Dataset (Kaggle)](https://www.kaggle
 12. **Product performance**
 13. **Business findings, recommendations & conclusion**
 
-## 🔑 Key Findings
+## Key Findings
 
 | Area | Result |
 |---|---|
@@ -73,7 +71,7 @@ Source: [Marketing and E-Commerce Analytics Dataset (Kaggle)](https://www.kaggle
 | **RFM** | Champions: 10.9% of buyers, 22.9% of revenue; at-risk + lapsing-loyal: 14.1% of buyers, 19.7% of revenue |
 | **Products** | Electronics brings 41% of revenue; top 20% of products = 44% of revenue; category conversion is nearly identical |
 
-## 💡 Business Recommendations
+## Business Recommendations
 
 1. **Prioritise Variant_B**, then confirm with a customer-level (not event-level) split and check its running cost.
 2. **Run a proper campaign holdout** within each paid channel to separate campaign effect from channel effect.
@@ -82,7 +80,7 @@ Source: [Marketing and E-Commerce Analytics Dataset (Kaggle)](https://www.kaggle
 5. **Target by behaviour, not demographics**: win back at-risk buyers and protect Champions.
 6. **Fix tracking gaps**: missing revenue (about 10% of orders), non-unique `session_id`, inconsistent traffic-source labels, campaign dates that don't match exposure.
 
-## ⚠️ Limitations
+## Limitations
 
 - Data is synthetic
 - Event-level (not customer-level) experiment assignment, so spill-over between groups can't be ruled out
@@ -91,58 +89,22 @@ Source: [Marketing and E-Commerce Analytics Dataset (Kaggle)](https://www.kaggle
 - Funnel is built from event counts, not individual user journeys
 - About 10% of transactions have no revenue value (excluded, not imputed)
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 - **Languages:** Python, SQL (SQLite)
 - **Data:** pandas, NumPy
 - **Visualisation:** Matplotlib, Seaborn
 - **Statistics:** SciPy, Statsmodels
 
-## 🚀 How to Run
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/<your-username>/<your-repo-name>.git
-   cd <your-repo-name>
-   ```
-
-2. **Install dependencies**
-   ```bash
-   pip install pandas numpy matplotlib seaborn scipy statsmodels jupyter
-   ```
-
-3. **Download the dataset** from [Kaggle](https://www.kaggle.com/datasets/geethasagarbonthu/marketing-and-e-commerce-analytics-dataset) and place these files beside the notebook:
-   ```
-   campaigns.csv
-   customers.csv
-   events.csv
-   products.csv
-   transactions.csv
-   ```
-
-4. **Launch the notebook**
-   ```bash
-   jupyter notebook marketing-e-commerce-analysis.ipynb
-   ```
-
 > 💾 The `events` table has 2 million rows (roughly 800 MB in memory), so make sure you have enough RAM. The notebook also runs on Kaggle with the dataset attached.
-
-## 📁 Repository Structure
-
-```
-├── marketing-e-commerce-analysis.ipynb   # Full analysis notebook
-├── README.md
-└── data/                                 # (optional) place CSV files here, not committed
-```
 
 ## 👩‍💻 Author
 
 **Nur Alyaa binti Jamal**
-Industrial Statistics student, Universiti Utara Malaysia | Aspiring Data Analyst / BI Analyst
+Industrial Statistics graduate, Universiti Utara Malaysia | Aspiring Data Analyst / BI Analyst
 
-- GitHub: [@your-username](https://github.com/your-username)
-- LinkedIn: [your-linkedin](https://www.linkedin.com/in/your-linkedin)
-- Portfolio: [your-portfolio-link](https://your-portfolio-link)
+- GitHub: [@your-username](https://github.com/NurAlyaaJamal)
+- LinkedIn: [your-linkedin](https://www.linkedin.com/in/nur-alyaa-jamal13/)
 
 ---
 
