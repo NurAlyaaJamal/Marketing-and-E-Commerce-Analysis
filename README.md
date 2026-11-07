@@ -101,11 +101,11 @@ Source: [Marketing and E-Commerce Analytics Dataset (Kaggle)](https://www.kaggle
 ## 👩‍💻 Author
 
 **Nur Alyaa binti Jamal**
-Industrial Statistics graduate, Universiti Utara Malaysia | Aspiring Data Analyst / BI Analyst
-
-- GitHub: [@your-username](https://github.com/NurAlyaaJamal)
-- LinkedIn: [your-linkedin](https://www.linkedin.com/in/nur-alyaa-jamal13/)
 
 ---
 
-⭐ If you found this project useful, feel free to star the repository!
+I'm a fresh graduate in **Industrial Statistics** from **Universiti Utara Malaysia** and aspiring to be a Professional **Data Analyst** or **Data Scientist** one day. If you found this project useful, feel free to star the repository! ⭐ 
+- LinkedIn: [Nur Alyaa Jamal](https://www.linkedin.com/in/nur-alyaa-jamal13/)
+---
+
+
