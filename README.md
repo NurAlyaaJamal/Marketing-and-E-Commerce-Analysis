@@ -91,10 +91,11 @@ Source: [Marketing and E-Commerce Analytics Dataset (Kaggle)](https://www.kaggle
 
 ## Tech Stack
 
-- **Languages:** Python, SQL (SQLite)
+- **Languages:** Python, SQL (SQLite),
 - **Data:** pandas, NumPy
 - **Visualisation:** Matplotlib, Seaborn
 - **Statistics:** SciPy, Statsmodels
+- **Other:** HTML
 
 > 💾 The `events` table has 2 million rows (roughly 800 MB in memory), so make sure you have enough RAM. The notebook also runs on Kaggle with the dataset attached.
 
